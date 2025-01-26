@@ -2,7 +2,7 @@ import nextcord
 from nextcord.ext import commands
 import os
 
-BOTTOKEN = ""
+BOTTOKEN = "" # in `discordbot token.txt`
 
 intents = nextcord.Intents.default()
 intents.members = True
